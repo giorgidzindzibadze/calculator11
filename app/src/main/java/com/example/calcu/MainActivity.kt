@@ -57,17 +57,25 @@ class MainActivity : AppCompatActivity() {
     }
     fun DelClicked(clickedView: View){
 
-        val სიგრძე =resultTextView.length()
-        if (სიგრძე > 0){
-            resultTextView.text=resultTextView.text.subSequence(0,სიგრძე - 1)
+        val length =resultTextView.length()
+        if (length > 0){
+            resultTextView.text=resultTextView.text.subSequence(0,length - 1)
         }
 
     }
     fun  pointClicked(clickedView: View){
         if (clickedView is TextView){
-            var ტექსტი = resultTextView.text.toString()
-            val number =clickedView.text.toString()
+            var text = resultTextView.text.toString()
+            var point =clickedView.text.toString()
+
+            if(resultTextView.text.toString()==""){
+                resultTextView.text="0."
+            }
+        else if("." !in resultTextView.text.toString()){
+            resultTextView.text=text+point
         }
 
+       }
     }
+
 }
