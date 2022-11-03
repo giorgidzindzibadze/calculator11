@@ -16,7 +16,6 @@
 
        <TableRow
            android:layout_width="match_parent"
-           android:layout_heigth="100dp"
            android:weightSum="2">
 
            <TextView
@@ -75,7 +74,6 @@
        </TableRow>
        <TableRow
            android:layout_width="match_parent"
-           android:layout_heigth="100dp"
            android:weightSum="4"
            android:layout_marginTop="2dp">
 
@@ -135,7 +133,6 @@
 
        <TableRow
            android:layout_width="match_parent"
-           android:layout_heigth="100dp"
            android:weightSum="4">
 
            <TextView
@@ -192,7 +189,6 @@
 
        <TableRow
            android:layout_width="match_parent"
-           android:layout_heigth="100dp"
            android:weightSum="4">
 
            <TextView
@@ -250,7 +246,6 @@
 
        <TableRow
            android:layout_width="match_parent"
-           android:layout_heigth="100dp"
            android:weightSum="4">
 
            <TextView
